@@ -1,0 +1,48 @@
+.homepage-box{
+     width:100%;
+     margin: auto;
+   
+}
+.gridbox{
+     width: 90%;
+     margin: auto;
+     grid-template-columns: repeat(5, minmax(10%, auto));
+     gap:30px;
+     display: grid;
+}
+.card{
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.card-pic{
+     width: 100%;
+}
+.card-title{
+     font-size: 20px;
+     width: 95%;
+     margin: auto;
+     text-align: center;
+     color:black;
+}
+.btn-box{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+   
+}
+.btn-box button{
+     background-color: rgb(76, 76, 238);
+    color:white; 
+    font-size: 30px;
+    padding:5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+
+}
+.pagebox{
+     font-size: 30px;
+     color:black;
+}
