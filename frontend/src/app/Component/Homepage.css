@@ -46,3 +46,17 @@
      font-size: 30px;
      color:black;
 }
+
+@media only screen and (max-width: 768px){
+   .gridbox{
+     grid-template-columns: repeat(3, minmax(10%, auto));
+
+   }
+ }
+
+ @media only screen and (max-width: 425px){
+     .gridbox{
+       grid-template-columns: repeat(2, minmax(10%, auto));
+  
+     }
+   }
